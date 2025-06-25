@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"args": [],
+			"command": "npm run dev -- --open",
+			"group": "build",
+			"isBackground": true,
+			"label": "Run SvelteKit Dev Server",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"type": "shell"
+		}
+	]
+}
