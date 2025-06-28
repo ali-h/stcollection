@@ -43,6 +43,7 @@ create table orders (
   items jsonb not null,  -- array of {product_id, variant_id, name, size, color, quantity, price}
   shipping_cost numeric(10, 2) not null default 0.00,
   notes text,
+  status text not null default 'pending', -- Added status column
   created_at timestamp with time zone default now()
 );
 
